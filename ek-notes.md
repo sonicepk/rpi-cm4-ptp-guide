@@ -1,3 +1,5 @@
+# My pins
+
 The pins need to be connected as follows:
 
 | GPS pin no | u-blox pin name | IO header | header pin no | header pin name | description |
