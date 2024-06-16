@@ -17,3 +17,4 @@ Pin 1 supplies power to the antenna; the precise range of allowed voltages depen
 
 https://www.pi4j.com/1.3/pins/rpi-cm4.html
 
+On J2 we want SYNC_IN (PIN 8 on J2) from the 1pps on the UBlox. When you connect the 1PPS(TP) to SYNC_IN on the CM4 the 1PPS led stops flashing on the UBlox. 
