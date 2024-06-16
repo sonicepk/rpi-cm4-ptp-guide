@@ -14,3 +14,6 @@ The pins need to be connected as follows:
 | 8 | GND | HAT | 6 or 14 | GND | Ground |
 
 Pin 1 supplies power to the antenna; the precise range of allowed voltages depends on the board. All boards appear to accept a range of 3.3-5V.
+
+https://www.pi4j.com/1.3/pins/rpi-cm4.html
+
