@@ -1,6 +1,6 @@
 # My pins
 
-The pins need to be connected as follows:
+The Ublox pins need to be connected as follows:
 
 | GPS pin no | u-blox pin name | IO header | header pin no | header pin name | description |
 | --- | --- | --- | --- | --- | --- |
@@ -15,6 +15,17 @@ The pins need to be connected as follows:
 
 Pin 1 supplies power to the antenna; the precise range of allowed voltages depends on the board. All boards appear to accept a range of 3.3-5V.
 
+
 https://www.pi4j.com/1.3/pins/rpi-cm4.html
 
 On J2 we want SYNC_IN (PIN 8 on J2) from the 1pps on the UBlox. When you connect the 1PPS(TP) to SYNC_IN on the CM4 the 1PPS led stops flashing on the UBlox. 
+
+https://wiki.radxa.com/Rock3/CM3/raspcm4io/gpio#:~:text=3%20GPIO%20number-,General%20purpose%20input%2Doutput%20(GPIO)%20connector,pin%20is%20distinguished%20by%20color.
+
+The CM4 GPIO PINS 
+1 - 3.3V
+6 - GND
+8 - GPIO0_D1	UART2_TX_M0 GPIO 25
+10 - GPIO0_D0	UART2_RX_M0			24
+
+
